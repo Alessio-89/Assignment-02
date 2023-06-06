@@ -5,7 +5,7 @@ const positivesAndSum = (array) => {
   let sum = 0;
 
   let positiveNums = [];
-
+//here I created an empty array
 
 
    array.forEach(element => {
@@ -13,6 +13,7 @@ const positivesAndSum = (array) => {
          sum += element; 
          positiveNums.push(element);
       }; 
+     //the above code iterates through the array and sums all positive numbers, then it pushes them to the empty array I created.
    }
    );
 
